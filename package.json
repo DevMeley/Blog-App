@@ -1,0 +1,20 @@
+{
+  "name": "blog-post",
+  "version": "1.0.0",
+  "description": "blog-post to practice backend ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DevMeley",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-fileupload": "^1.5.1",
+    "mongoose": "^8.6.2",
+    "nodemon": "^3.1.6"
+  }
+}
