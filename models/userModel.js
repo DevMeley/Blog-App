@@ -16,6 +16,8 @@ const userSchema = new Schema({
     }
 })
 
+
+// 
 userSchema.pre('save', async function(next){
     try{
         const user = this
@@ -33,5 +35,5 @@ userSchema.pre('save', async function(next){
 const userModel = mongoose.model('userModel', userSchema)
 
 
-// Export so as to user else where
+// Export so as to use else where
 module.exports = userModel

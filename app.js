@@ -32,6 +32,9 @@ app.post('/users/register', async(req, res)=>{
        console.log(user)
        
     } catch (error) {
+        if (error) {
+            res.redirect('/auth/register')
+        }
         console.log(error)
     }
 })
